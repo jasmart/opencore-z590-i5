@@ -69,9 +69,9 @@
             <key>Quirks</key>
             <dict>
                 <key>FadtEnableReset</key>
-                <true/>
-                <key>NormalizeHeaders</key>
                 <false/>
+                <key>NormalizeHeaders</key>
+                <true/>
                 <key>RebaseRegions</key>
                 <true/>
                 <key>ResetHwSig</key>
@@ -95,7 +95,7 @@
                 <key>AvoidRuntimeDefrag</key>
                 <true/>
                 <key>DevirtualiseMmio</key>
-                <false/>
+                <true/>
                 <key>DisableSingleUser</key>
                 <false/>
                 <key>DisableVariableWrite</key>
@@ -105,7 +105,7 @@
                 <key>EnableSafeModeSlide</key>
                 <true/>
                 <key>EnableWriteUnprotector</key>
-                <true/>
+                <false/>
                 <key>ForceBooterSignature</key>
                 <false/>
                 <key>ForceExitBootServices</key>
@@ -115,21 +115,21 @@
                 <key>ProtectSecureBoot</key>
                 <false/>
                 <key>ProtectUefiServices</key>
-                <false/>
+                <true/>
                 <key>ProvideCustomSlide</key>
                 <true/>
                 <key>ProvideMaxSlide</key>
                 <integer>0</integer>
                 <key>RebuildAppleMemoryMap</key>
-                <false/>
-                <key>ResizeAppleGpuBars</key>
-                <integer>-1</integer>
-                <key>SetupVirtualMap</key>
                 <true/>
+                <key>ResizeAppleGpuBars</key>
+                <integer>0</integer>
+                <key>SetupVirtualMap</key>
+                <false/>
                 <key>SignalAppleOS</key>
                 <false/>
                 <key>SyncRuntimePermissions</key>
-                <false/>
+                <true/>
             </dict>
         </dict>
         <key>DeviceProperties</key>
@@ -946,9 +946,9 @@
                 <key>ForgeUefiSupport</key>
                 <false/>
                 <key>IgnoreInvalidFlexRatio</key>
-                <true/>
+                <false/>
                 <key>ReleaseUsbOwnership</key>
-                <true/>
+                <false/>
                 <key>ReloadOptionRoms</key>
                 <false/>
                 <key>RequestBootVarRouting</key>
